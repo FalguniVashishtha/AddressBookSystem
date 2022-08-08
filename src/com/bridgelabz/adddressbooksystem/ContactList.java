@@ -2,7 +2,7 @@ package com.bridgelabz.adddressbooksystem;
 
 public class ContactList {
     private String firstName, lastName, address, city, state, zipCode, contactNumber, emailAddress;
-    public void Contactlist() {
+    public void ContactList() {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -12,52 +12,57 @@ public class ContactList {
         this.contactNumber = contactNumber;
         this.emailAddress = emailAddress;
     }
-    public String getFirstName () {
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+    public String getFirstName() {
         return firstName;
     }
-    public void setFirstName (String firstName){
-        this.firstName = firstName;
-    }
-    public String getLastName(){
-        return lastName;
-    }
-    public  void setLastName(String lastName){
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public String getAddress () {
-        return address;
+    public String getLastName() {
+        return lastName;
     }
-    public void setAddress (String address){
+    public void setAddress(String address) {
         this.address = address;
     }
-    public String getCity () {
-        return city;
+    public String getAddress() {
+        return address;
     }
-    public void setCity (String city){
+    public void setCity(String city) {
         this.city = city;
     }
-    public String getState () {
-        return state;
+    public String getCity() {
+        return city;
     }
-    public void setState (String state){
+    public void setState(String state) {
         this.state = state;
     }
-    public String getZipCode () {
-        return zipCode;
+    public String getState() {
+        return state;
     }
-    public void setZipCode (String zipCode){
+    public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
-    public String getContactNumber () {
-        return contactNumber;
+    public String getZipCode() {
+        return zipCode;
     }
-    public void setContactNumber (String contactNumber){
+    public void setContactNumber(String contactNumber) {
         this.contactNumber = contactNumber;
     }
-    public String getEmailAddress () {
+    public String getContactNumber() {
+        return contactNumber;
+    }
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+    public String getEmailAddress() {
         return emailAddress;
     }
-    public void setEmailAddress (String emailAddress){
-        this.emailAddress = emailAddress;
+    //overwritten toString
+    public String toString() {
+        return ("FirstName: " + firstName + "\nLastName: " + lastName + "\nAddress: " + address + "\nCity: " + city + "\nState: " + state +
+                "\nZip Code: " + zipCode + "\nContact Number: " + contactNumber + "\nEmail Address: " + emailAddress);
     }
 }
