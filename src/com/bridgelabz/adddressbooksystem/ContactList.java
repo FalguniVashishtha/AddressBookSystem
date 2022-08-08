@@ -62,7 +62,7 @@ public class ContactList {
     }
     //overwritten toString
     public String toString() {
-        return ("FirstName:" + firstName + "\nLastName: " + lastName + "\nAddress: " + address + "\nCity: " + city + "\nState: " + state +
+        return ("FirstName: " + firstName + "\nLastName: " + lastName + "\nAddress: " + address + "\nCity: " + city + "\nState: " + state +
                 "\nZip Code: " + zipCode + "\nContact Number: " + contactNumber + "\nEmail Address: " + emailAddress);
     }
 }

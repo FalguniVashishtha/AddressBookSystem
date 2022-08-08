@@ -7,7 +7,6 @@
     <list default="true" id="aba93ce7-67e1-4299-a36c-34d32899cf41" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/adddressbooksystem/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/adddressbooksystem/AddressBookMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/adddressbooksystem/ContactList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/adddressbooksystem/ContactList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
